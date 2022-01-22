@@ -7,6 +7,9 @@ import "primevue/resources/themes/lara-light-indigo/theme.css" //Theme
 import 'primevue/resources/primevue.min.css'; //Core CSS
 import 'primeicons/primeicons.css'; // Icons
 
+//PrimeFlex Imports
+import 'primeflex/primeflex.css';
+
 Vue.config.productionTip = false
 
 new Vue({
@@ -14,4 +17,3 @@ new Vue({
 }).$mount('#app')
 
 Vue.use(PrimeVue, {ripple: true});
-
